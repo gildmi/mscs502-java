@@ -26,7 +26,8 @@ Issue a `java -jar target/helloworld-<VERSION>-SNAPSHOT-jar-with-dependencies.ja
 5. Build and run the code as you would locally from the Docker container bash prompt
 
 ## Tests
-[JUnit](https://junit.org/junit5/) is used as the Test Framework. To execute unit tests run `mvn test`.
+[JUnit](https://junit.org/junit5/) is used as the Test Framework. To execute unit tests run `mvn test`.  
+To skip tests, add `-Dmaven.test.skip=true` as an argument to your Maven command.
 
 ## Contributing
 - All code (classes, files, global variables, members, and methods) must be thoroughly documented using JavaDoc accepted format.  HINT: Use `mvn site`
