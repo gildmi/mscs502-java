@@ -1,6 +1,5 @@
 package edu.marist.gildein;
 
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -10,8 +9,6 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
  * Unit test for hello world App template.
  */
 class Assignment0Test {
-    
-
     StringBuilder input0DataBuilder = new StringBuilder();
     String input0Data = input0DataBuilder.append("Albany\n")
     .append("Amsterdam\n")
@@ -125,7 +122,7 @@ class Assignment0Test {
      */
     @Test
     void testAppVersion() {
-        assertEquals(CONSTANTS.getVersion(), "0.5.0");
+        assertNotEquals("0.1.0", CONSTANTS.getVersion());
     }
 
     /**
@@ -133,7 +130,7 @@ class Assignment0Test {
      */
     @Test
     void testAppName() {
-        assertNotEquals(CONSTANTS.getAppName(), "helloworld");
+        assertNotEquals("helloworld", CONSTANTS.getAppName());
     }
 
     /**
