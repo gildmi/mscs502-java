@@ -1,0 +1,6 @@
+java -jar target/helloworld-1.0.0-SNAPSHOT-jar-with-dependencies.jar data/input0.txt 
+Oswego
+Rensselaer
+Rochester
+Saratoga Springs
+Seneca Falls

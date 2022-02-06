@@ -1,0 +1,47 @@
+java -jar target/helloworld-0.5.0-SNAPSHOT-jar-with-dependencies.jar data/input0.txt 
+Albany
+Auburn
+Batavia
+Bedford
+Bronx
+Buffalo
+Cheektowaga
+Cohoes
+Cooperstown
+Cortland
+Dunkirk
+East Hampton
+Elmira
+Forest Hills
+Garden City
+Glens Falls
+Great Neck
+Harlem
+Herkimer
+Huntington
+Ilion
+Jamestown
+Kingston
+Lake Placid
+Lockport
+Manhattan
+Middletown
+Mount Vernon
+New Rochelle
+New York City
+Niagara Falls
+Nyack
+Rochester
+Rotterdam
+Sag Harbor
+Saratoga Springs
+Schenectady
+Southampton
+Stony Brook
+Syracuse
+Ticonderoga
+Troy
+Watertown
+Watkins Glen
+White Plains
+Yonkers
